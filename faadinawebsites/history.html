@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alfadina Resume Website</title>
+    
+       <!------- Add icon library ------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="history.html">HISTORY</a></li>
+                    <li><a href="skill.html">SKILL</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>HISTORY</h1>
+    </section>
+
+
+    <!-------EDUCATION------->
+
+    <section class="course">
+
+        <h1> MY EDUCATION </h1>
+        <p>Below is the entire history of the education I have received and the short description in every each level education:</p>
+
+          <div class="row">
+            <div class="course-col">
+                <h3>SK<br>TAMAN SETIA</h3>
+                <small>(2010-2014)</small>
+                <p> I am active students which particapated in netball. Aside from that I am secretary club netball</p>
+            </div>
+
+            <div class="course-col">
+                <h3>SK<br>TAMAN MELATI </h3>
+                <small>(2015-2019)</small>
+                <p>I am active student which particapated in theather and netball. Aside from that I am secretary club netball</p>
+            </div>
+
+            <div class="course-col">
+                <h3>UNIVERSITI<br>TERKNOLOGI MARA</h3>
+                <small>(2020-2023)</small>
+                <p>I am student from Diploma in Information Management at UiTM Rembau, Negeri Sembilan</p>
+            </div>
+
+        </div>
+
+    </section>
+
+     <!--------WORK EXPERIENCE-------->
+    
+     <section class="work">
+        <h1>MY WORK EXPERIENCE</h1>
+        <p>Work experience is the experience that I gains while working in a job. Below are my recent work experience:</p>
+
+        <div class="row">
+            <div class="work-col">
+                <img src="image/isetan.png">
+                <h3>Lifeshop Atelier Shop</h3>
+                <p><medium>(Promoter, 2019)</medium></p>
+                <p>As a promoter, I will do the calculation for the sales everyday and record it in the report.</p>
+                <p>Demonstrating and providing information on promoted products/services to the customers.</p>
+                <p>Assist customers on finding the perfect style and sizing to fulfil their needs.</p>
+                    
+            </div>
+
+            <div class="work-col">
+                <img src="image/super.png">
+                <h3>Super Saigon Pho Cafe</h3>
+                <p><medium>(Kitchen Crew, 2020)</medium></p>
+                <p>As a kitechen crew, I am responsible for preparing the food and ensuring that every SOP is followed.</p>
+                <p>Responsible for ensuring that the food tastes good and that customers are pleased with our services.</p>
+                <p>Must maintain cleanliness and know what a customer needs or requests.</p>
+            </div>
+
+            <div class="work-col">
+                <img src="image/obriens.png">
+                <h3>O'briens Irish Sandwich cafe</h3>
+                <p><medium>(Sandwich Maker and Barista, 2022)</medium></p>
+                <p>As a barista need to serves beverages such as coffee, tea and specialty beverages.</p>
+                <p>As sandwich maker need to prepare sandwiches according to customers’ orders.</p>
+                <p>Do cleaning and sanitize the work areas, seating areas and equipment/tools.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------footer------->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>This website resume is for my job application. I am currently pursuing my Diploma in course Information Management at Universiti Teknologi Mara (UiTM)<br>and looking for a career where I can get new experience, excellent interpersonal skills, and willingness to contribute to a great company to excellent use.<br>Furthermore, I would like to work in a professional and dynamic environment where I can utilise and develop in this position.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/f4din416"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/faadina_"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/faadina_/?next=%2F"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/nur-alfadina-binti-mohd-borhan-14516a281/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://open.spotify.com/playlist/2YMEmAIlSEMNDIDqTzqqgZ?si=iXnQtswZS2WhfpwoaO4z0Q"><i class="fa fa-spotify"></i></a>
+        </div>
+        <p>Made by Nur Alfadina</p>
+    </section>
+
+
+
+    <!------- JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+        navLinks.style.right = "0";
+        }
+        function showMenu(){
+        navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

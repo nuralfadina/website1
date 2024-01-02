@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alfadina Resume Website</title>
+    
+    <link rel="stylesheet" href="main.css">
+    
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="history.html">HISTORY</a></li>
+                    <li><a href="skill.html">SKILL</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h2>NUR ALFADINA BINTI MOHD BORHAN</h2>
+    <p>Here is my resume website.<br> This resume website is a personal website where I showcase my resume, details and professional accomplishments.
+    </p>
+    <a href="about.html" class="hero-btn">More Details</a>
+</div>
+    </section>
+
+    <!--------Course------->
+
+    <section class="course">
+
+        <h1>MY EDUCATION</h1>
+        <p>Below is the entire history of the education I have received and the short description in every each level education:</p>
+
+          <div class="row">
+            <div class="course-col">
+                <h3>SK TAMAN SETIA</h3>
+                <small>2010-2014</small>
+            </div>
+
+            <div class="course-col">
+                <h3>SMK TAMAN MELATI</h3>
+                <small>2015-2019</small>
+            </div>
+
+            <div class="course-col">
+                <h3>UNIVERSITI TEKNOLOGI MARA</h3>
+                <small>2020-2023</small>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-------WORK EXPERIENCE-------->
+
+    <section class="campus">
+        <h1>MY WORK EXPERIENCE</h1>
+        <p>Work experience is the experience that I gains while working in a job. Below are my recent work experience:</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="image/isetan.png">
+                <div class="layer">
+                    <h3>Lifeshop Atelier<br>Shop</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="image/super.png">
+                <div class="layer">
+                    <h3>SUPER SAIGON<br>PHO CAFE</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="image/obriens.png">
+                <div class="layer">
+                    <h3>O'BRIENS IRISH<br>SANDWICH CAFE</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--------work-------->
+    
+    <section class="work">
+        <h1>MY SKILL</h1>
+
+        <div class="row">
+            <div class="work-col">
+                <img src="image/skill3.jpg">
+                <h3>GOOD COMMUNICATION<br>SKILL</h3>
+            </div>
+            <div class="work-col">
+                <img src="image/skill1.jpg">
+                <h3>LEADERSHIP<br>SKILL</h3>
+            </div>
+            <div class="work-col">
+                <img src="image/skill2.jpg">
+                <h3>TIME MANAGEMENT<br>SKILL</h3>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!----call to action----->
+
+    <section class="cta">
+        <h1>If any inquiries,<br>Please contact me in this section</h1>
+        <a href="contact.html" class="hero-btn">CONTACT ME</a>
+    </section>
+
+    </section>
+
+    <!-----footer------->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>This website resume is for my job application. I am currently pursuing my Diploma in course Information Management at Universiti Teknologi Mara (UiTM)<br>and looking for a career where I can get new experience, excellent interpersonal skills, and willingness to contribute to a great company to excellent use.<br>Furthermore, I would like to work in a professional and dynamic environment where I can utilise and develop in this position.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/f4din416"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/faadina_"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/faadina_/?next=%2F"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/nur-alfadina-binti-mohd-borhan-14516a281/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://open.spotify.com/playlist/2YMEmAIlSEMNDIDqTzqqgZ?si=iXnQtswZS2WhfpwoaO4z0Q"><i class="fa fa-spotify"></i></a>
+            
+        </div>
+        <p>Made by Nur Alfadina</p>       
+
+    </section>
+
+    </section>
+
+
+
+    <!------- JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+        navLinks.style.right = "0";
+        }
+        function showMenu(){
+        navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
